@@ -1,0 +1,22 @@
+{
+  "name": "tapable1",
+  "version": "1.0.0",
+  "description": "a simple tapable serize hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bighamD/tapable.git"
+  },
+  "author": "bigham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bighamD/tapable/issues"
+  },
+  "homepage": "https://github.com/bighamD/tapable#readme",
+  "devDependencies": {
+    "tapable": "^1.1.3"
+  }
+}
