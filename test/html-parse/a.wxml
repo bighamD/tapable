@@ -1,0 +1,23 @@
+<view>
+  <template name="foo">
+    {{name}}---{{age}}
+  </template>
+  <template is="foo" data="{{obj1, ...obj2}}"></template>
+  <template name="item">
+    <text>{{text}}</text>
+  </template>
+  <template is="item" data="{{text:forbar}}"></template>
+  <import src="{{srcPath}}" ></import>
+  <view class="tt" id="{{id ? id: 1}}" ></view>
+  <view>
+    <template name="temp2">
+    <wxs module="msg" src="../../wxs/a.wxs"></wxs>
+    <wxs module="foo">
+      var some_msg = "hello";
+      module.exports = {
+      msg : some_msg,
+      }
+    </wxs>
+  </template>
+  </view>
+</view>
